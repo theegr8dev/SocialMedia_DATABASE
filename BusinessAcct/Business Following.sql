@@ -1,0 +1,30 @@
+CREATE TABLE [Business].[Following](
+	[Business_ID] [varchar](50) NOT NULL,
+	[User_ID] [varchar](max) NULL
+
+insert into Business.Following  values (1, 'PPU1, PPU2, PPU3, PPU9, BU18, PU21, PU7, BU20, PU10, BU18, PU11, PU13, PU12, PU14, PU17')
+insert into Business.Following  values (2, 'BU6, BU5, PU22, BU24, BU3, PU10, PU7, PU3')
+insert into Business.Following  values (3, 'PU5, PU19, PU3')
+insert into Business.Following  values (4, 'PU1, PU31, BU5, BU3, PU12, PU6, PU10, PU4, PU9, BU9, PU11, BU2')
+insert into Business.Following  values (5, 'PU21')
+insert into Business.Following  values (6, 'PU5, BU5, BU24, PU11, BU15, PU6, PU12, PU4, PU19, PU10, PU23, BU25, PU1 ')
+insert into Business.Following  values (7, 'PU3, PU19, BU25, PU4, PU8, PU19, PU2, PU10, PU11')
+insert into Business.Following  values (8, 'PU12, PU25, BU1, PU17, PU19,BU25')
+insert into Business.Following  values (9, 'PU6, PU12, PU19, PU11, BU5, BU14, PU3, PU21, PU18, PU10, PU12,BU9')
+insert into Business.Following  values (10, 'PU20, PU11,BU4, BU15, BU23, BU7, PU19, PU16, PU18, PU10, BU13, PU12, PU13, PU8, BU14, BU16, PU6, PU17, BU3')
+insert into Business.Following  values (11, 'BU5, BU16, BU25  ')
+insert into Business.Following  values (12, 'PU4, PU12, PU3, BU23, BU25, PU2, PU1, BU1, PU9, PU23, PU25, PU24')
+insert into Business.Following  values (13, 'BU5, PU5, BU12, PU5, PU6, PU12, PU3, PU9, PU25, BU12, PU19')
+insert into Business.Following  values (14, 'PU10, PU9, PU8, BU5, BU10, PU21, PU25, BU4, BU15, BU16, PU11, BU7')
+insert into Business.Following  values (15, 'BU7, BU5, PU21, BU24, PU10, BU32')
+insert into Business.Following  values (16, NULL)
+insert into Business.Following  values (17, 'BU10, BU21, BU14, PU23')
+insert into Business.Following  values (18, 'BU16, BU25, PU2, PU8, PU14, PU6, PU25, PU8, BU10, BU14, BU4, BU20, BU22, BU14, PU23, PU11, BU19, PU21')
+insert into Business.Following  values (19, 'BU25, PU1, PU2, PU9, BU11, BU3, PU19, BU22, BU20')
+insert into Business.Following  values (20, 'PU2, PU9, PU4, PU20, BU22, BU12, BU13, PU4, BU5, BU25, BU7, BU2, BU4, BU16, PU7, PU12, PU17 ')
+insert into Business.Following  values (21, 'BU25')
+insert into Business.Following  values (22, 'PU10, PU9, PU19, BU19, BU7, BU8, PU22, BU2, PU21 ')
+insert into Business.Following  values (23, ' PU7, PU20')
+insert into Business.Following  values (24, 'PU5, BU20')
+insert into Business.Following  values (25, 'PU10, BU5, PU5, PU6, PU7, BU4, PU19, BU6, BU12, PU11, BU1, BU11, BU21, PU15, PU20, PU17, PU22')
+

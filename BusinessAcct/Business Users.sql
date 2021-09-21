@@ -1,0 +1,33 @@
+CREATE TABLE [Business].[Users](
+	[ID] [varchar](50) NOT NULL,
+	[Profile_ID] [varchar](50) NOT NULL,
+	[UserName] [varchar](15) NOT NULL,
+	[Password] [varchar](20) NOT NULL
+
+
+INSERT INTO Business.Users
+VALUES ('BU1',	'BP1',	'vmatzelp',	'whGDISYWA'),
+        ('BU2',	'BP2',	'ccopynq',	'9vUgtnchr6PD'),
+        ('BU3',	'BP3',	'tjeansr',	'65pKje4'),
+        ('BU4',	'BP4',	'jdonnellans',	'wjy7ZQ'),
+        ('BU5',	'BP5',	'jstanfieldt',	'optpgnpgd3D'),
+        ('BU6',	'BP6',	'lhalburtonu',	'KpA0UAU5Eq'),
+        ('BU7',	'BP7',	'jyaninv',	'isX1aazKfft0'),
+        ('BU8',	'BP8',	'ygreguoliw',	'ypgutTg'),
+        ('BU9',	'BP9',	'trumminsx',	'LmOIH9Jv7bCv'),
+        ('BU10',	'BP10',	'bhaydeny',	'By4ySkP'),
+        ('BU11', 'BP11',	'pcartanz',	'RV1zgy'),
+        ('BU12',	'BP12',	'tstear10',	'ZgWkT2LNLkW'),
+        ('BU13',	'BP13',	'asharville11',	'HYWuIY'),
+        ('BU14',	'BP14',	'mgillings12',	'WV47sSIl24O'),
+        ('BU15',	'BP15',	'jhellier13',	'SZOxrrs4X'),
+        ('BU16',	'BP16',	'gpaule14',	'd081B2rtdH'),
+        ('BU17',	'BP17',	'hreditt15',	'lEMFaY'),
+        ('BU18',	'BP18',	'ezannolli16',	'aLIcYRcp3'),
+        ('BU19',	'BP19',	'rnewrick17',	'nqNWmvEai'),
+        ('BU20',	'BP20',	'aballe18',	'kf3wJvJ2qa'),
+        ('BU21',	'BP21',	'cboothby19',	'AfQ1T1RT'),
+        ('BU22',	'BP22',	'jgorusso1a',	'xQZnsS2cCRLY'),
+        ('BU23',	'BP23',	'rjanoch1b',	'6ziLKOPb'),
+        ('BU24',	'BP24',	'cmansion1c',	'18MVHO7xrIL5'),
+        ('BU25',	'BP25',	'ddawbery1d',	'h3KxLv'),
